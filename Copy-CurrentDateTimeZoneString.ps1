@@ -4,6 +4,6 @@
 # Blog: https://billkindle.github.io
 function Copy-CurrentDateTimeZoneString {
 
-    GetDate -UFormat "%Y-%m-%d %T %Z00" | clip
+    Get-Date -UFormat "%Y-%m-%d %T %Z00" | clip
     # the zero's were intentional, but they can be removed if you like.
 }
