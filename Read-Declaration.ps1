@@ -1,5 +1,7 @@
 # Dedicated to the citizens of these United States
 
+#Requires -Version 5.1
+
 # Setup speech synthesizer
 Add-Type -AssemblyName System.Speech
 $SpeechSynthesizer = New-Object -TypeName System.Speech.synthesis.SpeechSynthesizer
