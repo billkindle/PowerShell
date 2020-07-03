@@ -1,6 +1,6 @@
 <#
 
-    Name: LastUpdate.ps1
+    Name: Get-LastWinUpdate.ps1
     Created By: Bill Kindle
     Created On: 01/31/2020
 
